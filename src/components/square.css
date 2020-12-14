@@ -1,0 +1,22 @@
+.square {
+    background: rgb(165, 168, 167);
+    border: 1px solid #1b1c1d;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    color:rgb(0, 105, 217);
+    width: 100px;
+    height: 100px;
+  }
+.square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: rgb(20, 20, 20);
+  }
+  
