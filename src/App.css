@@ -18,7 +18,6 @@
     box-sizing: border-box;
 }
 
-.text-info{
-  background-color: rgb(255, 249, 249);
-  border-radius: 1em;
+.content{
+  margin-top: 5%;
 }

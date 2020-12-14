@@ -5,19 +5,18 @@ import Game from "./components/Game"
 class App extends Component {
   render() {
     return(
+    <div>
+         <nav class="navbar navbar-dark bg-primary">
+          <a class="navbar-brand" href="#">TA TE TI</a>
+        </nav>  
       <div className="App container-fluid">
-      <div className="jumbotron jumbotron-fluid ">
-          <div className="container">
-             <h1 className="text-info">TA TE TI </h1>
-         </div>
+          <div className="content" >
+            <div id="#game">
+                <Game />
+            </div>
+        </div>
       </div>
-      <div >
-      <div id="#game">
-          <Game />
-      </div>
-     </div>
-     </div>
-
+    </div>
     )
   }
 }
